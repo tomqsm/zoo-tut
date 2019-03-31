@@ -1,0 +1,2 @@
+docker run --name zookeeper3.5 -p 2181:2181 -p 2888:2888 -p 3888:3888 -e ZOO_LOG4J_PROP="INFO,ROLLINGFILE" zookeeper:3.5.4-beta
+docker-compose -f stack.yml up
